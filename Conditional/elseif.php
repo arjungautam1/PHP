@@ -23,9 +23,13 @@
         }
         
     }
-    else
+    else if($y>$z)
     {
         echo "y is the greatest ";
+    }
+    else
+    {
+        echo "z is the greatest ";
     }
     ?>
 </body>
