@@ -8,12 +8,14 @@
 <body>
     <h1>Using function in php</h1>
     <?php
+
+    //function defination 
     function add($num1,$num2)
     {
         $sum=$num1+$num2;
         echo "Sum of the numbers is :".$sum;
     }
-    add(10,20);
+    add(10,20); //functin call 
     ?>
 </body>
 </html>
